@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Monisha's CV</title>
     <style>
-       
-      {
-        font-family: 'Segoe UI', sans-serif;
+      body {
+        font-family: "Segoe UI", sans-serif;
         margin: 40px;
         background-color: #f9f9f9;
         color: #333;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
       }
-      h1, h2 {
+      h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
         color: #2c3e50;
+      }
+      h2 {
+        color: #2c3e50;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+        margin-top: 40px;
       }
       .section {
         margin-bottom: 30px;
@@ -26,39 +36,62 @@
         margin: 5px 0 15px;
         line-height: 1.6;
       }
-  </style>
+      ul {
+        margin: 10px 0;
+        padding-left: 20px;
+      }
+    </style>
   </head>
-
-
-  <h1>Monisha Mahajan</h1>
+  <body>
+    <h1>Monisha Mahajan</h1>
     <p>MBA Finance Student · Python Learner · Financial Analysis Enthusiast</p>
-    <p>📍 Chandigarh, India · ✉ mahajanmonisha1@gmail.com · 🌐 <a href="https://monisha-mnm.github.io/Portfolio/">Portfolio</a></p>
+    <p>
+      📍 Chandigarh, India · ✉ mahajanmonisha1@gmail.com · 🌐
+      <a href="https://monisha-mnm.github.io/Portfolio/">Portfolio</a>
+    </p>
 
   <div class="section">
       <h2>🎓 Education</h2>
-      <div class="item-title">MBA in Finance — PML SD Business School, Chandigarh</div>
-      <div class="item-description">Expected Graduation: June 2026<br>Relevant coursework: Investment Analysis, Corporate Finance</div>
+      <div class="item-title">
+        MBA in Finance — PML SD Business School, Chandigarh
+      </div>
+      <div class="item-description">
+        Expected Graduation: June 2026<br />Relevant coursework: Investment
+        Analysis, Corporate Finance
+      </div>
     </div>
 
    <div class="section">
       <h2>💻 Projects</h2>
       <div class="item-title">Python Expense Tracker</div>
-      <div class="item-description">Built using pandas and matplotlib to track and visualize personal spending patterns.</div>
+      <div class="item-description">
+        Built using pandas and matplotlib to track and visualize personal
+        spending patterns.
+      </div>
 
-   <div class="item-title">Resume Website</div>
-      <div class="item-description">Coded with HTML/CSS to showcase academic and technical projects. Integrated GitHub and certifications.</div>
+  <div class="item-title">Resume Website</div>
+      <div class="item-description">
+        Coded with HTML/CSS to showcase academic and technical projects.
+        Integrated GitHub and certifications.
+      </div>
     </div>
 
   <div class="section">
       <h2>📊 Finance Skills</h2>
       <div class="item-title">ULIP Investment Research</div>
-      <div class="item-description">Analyzed Unit Linked Insurance Plans and calculated IRR for long-term returns.</div>
+      <div class="item-description">
+        Analyzed Unit Linked Insurance Plans and calculated IRR for long-term
+        returns.
+      </div>
 
    <div class="item-title">Excel Financial Models</div>
-      <div class="item-description">Designed dashboards for budgeting and investments using pivot tables and formulas.</div>
+      <div class="item-description">
+        Designed dashboards for budgeting and investments using pivot tables and
+        formulas.
+      </div>
     </div>
 
-  <div class="section">
+   <div class="section">
       <h2>🌟 Skills</h2>
       <ul>
         <li>Finance: Investment analysis, budgeting, planning</li>
@@ -66,6 +99,5 @@
         <li>Personal: Time management, problem-solving, self-learning</li>
       </ul>
     </div>
-
   </body>
 </html>
